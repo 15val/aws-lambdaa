@@ -68,3 +68,171 @@
 2024-04-21 02:53:12,479 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
 2024-04-21 02:53:12,479 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
 2024-04-21 02:53:12,604 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:01:29,201 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:01:29,714 [INFO] USER:ой helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00
+2024-04-21 03:01:29,727 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\jsrc\main\java\com\helloworldtest.
+2024-04-21 03:01:29,727 [INFO] USER:ой project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world-test' to the pending ProjectState.
+2024-04-21 03:01:29,727 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\src\lambdas.
+2024-04-21 03:01:29,727 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\app\lambdas.
+2024-04-21 03:01:29,728 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\swagger_src.
+2024-04-21 03:01:29,739 [INFO] USER:ой java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test/jsrc/main/java
+2024-04-21 03:01:29,739 [INFO] USER:ой java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test
+2024-04-21 03:01:38,017 [INFO] USER:ой java.py:44:assemble_java_mvn_lambdas LOG: Java mvn project was processed successfully
+2024-04-21 03:01:38,017 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:08.278536
+2024-04-21 03:01:38,032 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:08.293515
+2024-04-21 03:01:38,032 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble, elapsed time: 0:00:08.304786
+2024-04-21 03:01:38,049 [INFO] USER:ой meta_processor.py:476:create_meta LOG: Bundle path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test/bundles/hello_world-test_240421.030129
+2024-04-21 03:01:38,052 [INFO] USER:ой helper.py:299:write_content_to_file LOG: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\.syndicate-config-dev/bundles/hello_world-test_240421.030129\build_meta.json file was created.
+2024-04-21 03:01:38,053 [INFO] USER:ой helper.py:336:timed LOG: Stage package_meta, elapsed time: 0:00:00.003954
+2024-04-21 03:01:38,501 [INFO] USER:ой bundle_processor.py:185:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-04-21 03:01:43,310 [INFO] USER:ой helper.py:336:timed LOG: Stage upload, elapsed time: 0:00:05.060287
+2024-04-21 03:01:43,327 [INFO] USER:ой helper.py:336:timed LOG: Stage build, elapsed time: 0:00:13.912189
+2024-04-21 03:01:51,185 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:01:51,595 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:01:51,595 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:01:51,743 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:01:51,743 [INFO] USER:ой helper.py:240:resolve_default_value LOG: Resolved value of deploy_name: hello-world-test
+2024-04-21 03:01:51,862 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:01:51,862 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:01:51,994 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:01:51,994 [INFO] USER:ой helper.py:240:resolve_default_value LOG: Resolved value of bundle_name: hello_world-test_240421.030129
+2024-04-21 03:01:52,108 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:01:52,108 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:01:52,242 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:01:52,373 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:01:52,373 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:01:52,508 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:01:52,892 [INFO] USER:ой deployment_processor.py:312:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved.
+2024-04-21 03:01:52,892 [INFO] USER:ой deployment_processor.py:345:create_deployment_resources LOG: Going to deploy AWS resources
+2024-04-21 03:01:53,128 [INFO] USER:ой deployment_processor.py:85:_process_resources LOG: Processing iam_policy resources
+2024-04-21 03:01:53,761 [WARNING] USER:ой iam_resource.py:114:_create_policy_from_meta LOG: IAM policy cmtr-8937b1b4-lambda-basic-execution exists.
+2024-04-21 03:01:53,948 [INFO] USER:ой deployment_processor.py:85:_process_resources LOG: Processing iam_role resources
+2024-04-21 03:01:54,126 [WARNING] USER:ой iam_resource.py:138:_create_role_from_meta LOG: IAM role cmtr-8937b1b4-hello_world-test-role exists.
+2024-04-21 03:01:54,126 [INFO] USER:ой deployment_processor.py:97:_process_resources LOG: Processing lambda resources
+2024-04-21 03:01:54,907 [WARNING] USER:ой lambda_resource.py:277:_create_lambda_from_meta LOG: cmtr-8937b1b4-hello_world-test lambda exists.
+2024-04-21 03:01:54,907 [INFO] USER:ой deployment_processor.py:348:create_deployment_resources LOG: AWS resources were deployed successfully
+2024-04-21 03:01:54,908 [INFO] USER:ой deployment_processor.py:351:create_deployment_resources LOG: Going to apply dynamic changes
+2024-04-21 03:01:54,908 [INFO] USER:ой deployment_processor.py:353:create_deployment_resources LOG: Dynamic changes were applied successfully
+2024-04-21 03:01:54,909 [INFO] USER:ой deployment_processor.py:355:create_deployment_resources LOG: Going to apply common tags
+2024-04-21 03:01:54,915 [INFO] USER:ой group_tagging_api_resource.py:61:apply_tags LOG: No tags are specified in config. Skipping...
+2024-04-21 03:01:54,916 [INFO] USER:ой deployment_processor.py:358:create_deployment_resources LOG: Going to create deploy output
+2024-04-21 03:01:55,053 [INFO] USER:ой bundle_processor.py:63:create_deploy_output LOG: Output file with name hello_world-test_240421.030129/outputs/hello-world-test.json has been created
+2024-04-21 03:01:55,054 [INFO] USER:ой deployment_processor.py:364:create_deployment_resources LOG: Deploy output for hello-world-test was created.
+2024-04-21 03:01:55,055 [INFO] USER:ой helper.py:336:timed LOG: Stage deploy, elapsed time: 0:00:02.311481
+2024-04-21 03:01:55,193 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:01:55,193 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:01:55,332 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:05:57,161 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:05:57,475 [INFO] USER:ой bundle_processor.py:207:create_bundles_bucket LOG: Bundles bucket syndicate-education-platform-custom-sandbox-artifacts-sbox01 already exists
+2024-04-21 03:05:57,476 [INFO] USER:ой helper.py:336:timed LOG: Stage create_deploy_target_bucket, elapsed time: 0:00:00.315330
+2024-04-21 03:06:06,323 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:06:06,856 [INFO] USER:ой helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00.001668
+2024-04-21 03:06:06,872 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\jsrc\main\java\com\helloworldtest.
+2024-04-21 03:06:06,873 [INFO] USER:ой project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world-test' to the pending ProjectState.
+2024-04-21 03:06:06,873 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\src\lambdas.
+2024-04-21 03:06:06,873 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\app\lambdas.
+2024-04-21 03:06:06,873 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\swagger_src.
+2024-04-21 03:06:06,887 [INFO] USER:ой java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test/jsrc/main/java
+2024-04-21 03:06:06,887 [INFO] USER:ой java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test
+2024-04-21 03:06:15,291 [INFO] USER:ой java.py:44:assemble_java_mvn_lambdas LOG: Java mvn project was processed successfully
+2024-04-21 03:06:15,291 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:08.403966
+2024-04-21 03:06:15,306 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:08.418967
+2024-04-21 03:06:15,306 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble, elapsed time: 0:00:08.433948
+2024-04-21 03:06:15,320 [INFO] USER:ой meta_processor.py:476:create_meta LOG: Bundle path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test/bundles/hello_world-test_240421.030606
+2024-04-21 03:06:15,323 [INFO] USER:ой helper.py:299:write_content_to_file LOG: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\.syndicate-config-dev/bundles/hello_world-test_240421.030606\build_meta.json file was created.
+2024-04-21 03:06:15,324 [INFO] USER:ой helper.py:336:timed LOG: Stage package_meta, elapsed time: 0:00:00.003316
+2024-04-21 03:06:15,759 [INFO] USER:ой bundle_processor.py:185:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-04-21 03:06:20,691 [INFO] USER:ой helper.py:336:timed LOG: Stage upload, elapsed time: 0:00:05.157481
+2024-04-21 03:06:20,706 [INFO] USER:ой helper.py:336:timed LOG: Stage build, elapsed time: 0:00:14.178419
+2024-04-21 03:06:25,108 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:06:25,475 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:06:25,475 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:06:25,650 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:06:25,650 [INFO] USER:ой helper.py:240:resolve_default_value LOG: Resolved value of deploy_name: hello-world-test
+2024-04-21 03:06:25,770 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:06:25,770 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:06:25,923 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:06:25,923 [INFO] USER:ой helper.py:240:resolve_default_value LOG: Resolved value of bundle_name: hello_world-test_240421.030606
+2024-04-21 03:06:26,039 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:06:26,040 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:06:26,175 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:06:26,306 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:06:26,306 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:06:26,446 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:06:26,822 [INFO] USER:ой deployment_processor.py:312:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved.
+2024-04-21 03:06:26,823 [INFO] USER:ой deployment_processor.py:345:create_deployment_resources LOG: Going to deploy AWS resources
+2024-04-21 03:06:27,040 [INFO] USER:ой deployment_processor.py:85:_process_resources LOG: Processing iam_policy resources
+2024-04-21 03:06:27,666 [WARNING] USER:ой iam_resource.py:114:_create_policy_from_meta LOG: IAM policy cmtr-8937b1b4-lambda-basic-execution exists.
+2024-04-21 03:06:27,860 [INFO] USER:ой deployment_processor.py:85:_process_resources LOG: Processing iam_role resources
+2024-04-21 03:06:28,044 [WARNING] USER:ой iam_resource.py:138:_create_role_from_meta LOG: IAM role cmtr-8937b1b4-hello_world-test-role exists.
+2024-04-21 03:06:28,045 [INFO] USER:ой deployment_processor.py:97:_process_resources LOG: Processing lambda resources
+2024-04-21 03:06:28,451 [WARNING] USER:ой lambda_resource.py:277:_create_lambda_from_meta LOG: cmtr-8937b1b4-hello_world-test lambda exists.
+2024-04-21 03:06:28,452 [INFO] USER:ой deployment_processor.py:348:create_deployment_resources LOG: AWS resources were deployed successfully
+2024-04-21 03:06:28,452 [INFO] USER:ой deployment_processor.py:351:create_deployment_resources LOG: Going to apply dynamic changes
+2024-04-21 03:06:28,452 [INFO] USER:ой deployment_processor.py:353:create_deployment_resources LOG: Dynamic changes were applied successfully
+2024-04-21 03:06:28,454 [INFO] USER:ой deployment_processor.py:355:create_deployment_resources LOG: Going to apply common tags
+2024-04-21 03:06:28,460 [INFO] USER:ой group_tagging_api_resource.py:61:apply_tags LOG: No tags are specified in config. Skipping...
+2024-04-21 03:06:28,460 [INFO] USER:ой deployment_processor.py:358:create_deployment_resources LOG: Going to create deploy output
+2024-04-21 03:06:28,623 [INFO] USER:ой bundle_processor.py:63:create_deploy_output LOG: Output file with name hello_world-test_240421.030606/outputs/hello-world-test.json has been created
+2024-04-21 03:06:28,623 [INFO] USER:ой deployment_processor.py:364:create_deployment_resources LOG: Deploy output for hello-world-test was created.
+2024-04-21 03:06:28,626 [INFO] USER:ой helper.py:336:timed LOG: Stage deploy, elapsed time: 0:00:01.950550
+2024-04-21 03:06:28,788 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:06:28,788 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:06:28,936 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:23:06,933 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:23:07,274 [INFO] USER:ой bundle_processor.py:207:create_bundles_bucket LOG: Bundles bucket syndicate-education-platform-custom-sandbox-artifacts-sbox01 already exists
+2024-04-21 03:23:07,274 [INFO] USER:ой helper.py:336:timed LOG: Stage create_deploy_target_bucket, elapsed time: 0:00:00.341046
+2024-04-21 03:23:18,012 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:23:18,541 [INFO] USER:ой helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00.002004
+2024-04-21 03:23:18,677 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\jsrc\main\java\com\helloworldtest.
+2024-04-21 03:23:18,678 [INFO] USER:ой project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world-test' to the pending ProjectState.
+2024-04-21 03:23:18,678 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\src\lambdas.
+2024-04-21 03:23:18,678 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\app\lambdas.
+2024-04-21 03:23:18,679 [INFO] USER:ой project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\hello_world-test\swagger_src.
+2024-04-21 03:23:18,696 [INFO] USER:ой java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test/jsrc/main/java
+2024-04-21 03:23:18,696 [INFO] USER:ой java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test
+2024-04-21 03:23:27,311 [INFO] USER:ой java.py:44:assemble_java_mvn_lambdas LOG: Java mvn project was processed successfully
+2024-04-21 03:23:27,312 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:08.615782
+2024-04-21 03:23:27,330 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:08.633771
+2024-04-21 03:23:27,330 [INFO] USER:ой helper.py:336:timed LOG: Stage assemble, elapsed time: 0:00:08.653759
+2024-04-21 03:23:27,347 [INFO] USER:ой meta_processor.py:476:create_meta LOG: Bundle path: H:/IntellijIDEAprojects/AWS_course/lambda/task01/lambdaaa/hello_world-test/bundles/hello_world-test_240421.032317
+2024-04-21 03:23:27,349 [INFO] USER:ой helper.py:299:write_content_to_file LOG: H:\IntellijIDEAprojects\AWS_course\lambda\task01\lambdaaa\.syndicate-config-dev/bundles/hello_world-test_240421.032317\build_meta.json file was created.
+2024-04-21 03:23:27,350 [INFO] USER:ой helper.py:336:timed LOG: Stage package_meta, elapsed time: 0:00:00.004167
+2024-04-21 03:23:27,792 [INFO] USER:ой bundle_processor.py:185:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-04-21 03:23:32,768 [INFO] USER:ой helper.py:336:timed LOG: Stage upload, elapsed time: 0:00:05.213259
+2024-04-21 03:23:32,788 [INFO] USER:ой helper.py:336:timed LOG: Stage build, elapsed time: 0:00:14.573838
+2024-04-21 03:23:39,686 [INFO] USER:ой processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 03:23:40,063 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:23:40,064 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:23:40,225 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:23:40,225 [INFO] USER:ой helper.py:240:resolve_default_value LOG: Resolved value of deploy_name: hello-world-test
+2024-04-21 03:23:40,351 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:23:40,351 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:23:40,500 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:23:40,500 [INFO] USER:ой helper.py:240:resolve_default_value LOG: Resolved value of bundle_name: hello_world-test_240421.032317
+2024-04-21 03:23:40,637 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:23:40,637 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:23:40,789 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:23:40,931 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:23:40,931 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:23:41,107 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 03:23:41,552 [INFO] USER:ой deployment_processor.py:312:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved.
+2024-04-21 03:23:41,552 [INFO] USER:ой deployment_processor.py:345:create_deployment_resources LOG: Going to deploy AWS resources
+2024-04-21 03:23:41,770 [INFO] USER:ой deployment_processor.py:85:_process_resources LOG: Processing iam_policy resources
+2024-04-21 03:23:42,434 [WARNING] USER:ой iam_resource.py:114:_create_policy_from_meta LOG: IAM policy cmtr-8937b1b4-lambda-basic-execution exists.
+2024-04-21 03:23:42,633 [INFO] USER:ой deployment_processor.py:85:_process_resources LOG: Processing iam_role resources
+2024-04-21 03:23:42,821 [WARNING] USER:ой iam_resource.py:138:_create_role_from_meta LOG: IAM role cmtr-8937b1b4-hello_world-test-role exists.
+2024-04-21 03:23:42,821 [INFO] USER:ой deployment_processor.py:97:_process_resources LOG: Processing lambda resources
+2024-04-21 03:23:43,383 [WARNING] USER:ой lambda_resource.py:277:_create_lambda_from_meta LOG: cmtr-8937b1b4-hello_world-test lambda exists.
+2024-04-21 03:23:43,383 [INFO] USER:ой deployment_processor.py:348:create_deployment_resources LOG: AWS resources were deployed successfully
+2024-04-21 03:23:43,384 [INFO] USER:ой deployment_processor.py:351:create_deployment_resources LOG: Going to apply dynamic changes
+2024-04-21 03:23:43,384 [INFO] USER:ой deployment_processor.py:353:create_deployment_resources LOG: Dynamic changes were applied successfully
+2024-04-21 03:23:43,385 [INFO] USER:ой deployment_processor.py:355:create_deployment_resources LOG: Going to apply common tags
+2024-04-21 03:23:43,390 [INFO] USER:ой group_tagging_api_resource.py:61:apply_tags LOG: No tags are specified in config. Skipping...
+2024-04-21 03:23:43,391 [INFO] USER:ой deployment_processor.py:358:create_deployment_resources LOG: Going to create deploy output
+2024-04-21 03:23:43,542 [INFO] USER:ой bundle_processor.py:63:create_deploy_output LOG: Output file with name hello_world-test_240421.032317/outputs/hello-world-test.json has been created
+2024-04-21 03:23:43,542 [INFO] USER:ой deployment_processor.py:364:create_deployment_resources LOG: Deploy output for hello-world-test was created.
+2024-04-21 03:23:43,544 [INFO] USER:ой helper.py:336:timed LOG: Stage deploy, elapsed time: 0:00:02.184885
+2024-04-21 03:23:43,707 [INFO] USER:ой project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 03:23:43,707 [INFO] USER:ой project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 03:23:43,909 [INFO] USER:ой sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
